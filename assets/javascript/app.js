@@ -1372,9 +1372,9 @@ var View = draw2d.Canvas.extend({
         router.abortRoutingOnFirstVertexNode=false;
         var createConnection=function(sourcePort, targetPort){
             var c = new Connection({
-                color:"#00000",
+                color:"#ffffffff",
                 router: router,
-                stroke:1.5,
+                stroke:8,
                 radius:2
             });
             if(sourcePort) {
